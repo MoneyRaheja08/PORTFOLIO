@@ -1,3 +1,4 @@
+//index.js Money Raheja 301276615 05/02/2023
 var express = require('express');
 var router = express.Router();
 
@@ -9,22 +10,10 @@ router.get('/', function(req, res, next) {
 router.get('/home', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
-/* GET About page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
-});
-/* GET products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'products' });
-});
-/* GET Services page. */
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-});
-/* GET Contact us page. */
-router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact us' });
-});
+
+
+
+
 
 
 module.exports = router;
