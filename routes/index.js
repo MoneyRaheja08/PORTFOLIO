@@ -12,19 +12,19 @@ router.get('/home', function(req, res, next) {
 });
 /* GET About page. */
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'Home' });
+  res.render('about', { title: 'About' });
 });
 /* GET Projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Home' });
+  res.render('projects', { title: 'Projects' });
 });
 /* GET Services page. */
 router.get('/services', function(req, res, next) {
-  res.render('services', { title: 'Home' });
+  res.render('services', { title: 'Services' });
 });
 /* GET Contacts page. */
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Home' });
+  res.render('contact', { title: 'Contact' });
 });
 
 
